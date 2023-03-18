@@ -7,8 +7,9 @@
 
 int main(void)
 {
-	char a;	
-	for (a = 'a'; a <= 'z'; ++a)
+	char a;
+
+	for (a = 'a'; a <= 'z'; a++)
 	{
 		printf("%c", a);
 	}
