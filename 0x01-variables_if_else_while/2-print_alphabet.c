@@ -4,6 +4,7 @@
 *
 *Return: Already 0 (success)
 */
+
 int main(void)
 {
 	char a;
@@ -13,6 +14,7 @@ int main(void)
 		printf("%c", a);
 	}
 	printf("\n");
+
 return (0);
 }
 
