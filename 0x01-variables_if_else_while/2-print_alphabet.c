@@ -1,14 +1,13 @@
 #include <stdio.h>
 /**
-*Main - Entry point
+*main - Entry point
 *
 *Return: Already 0 (success)
 */
 
 int main(void)
 {
-	char a;
-	
+	char a;	
 	for (a = 'a'; a <= 'z'; ++a)
 	{
 		printf("%c", a);
