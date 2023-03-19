@@ -24,6 +24,7 @@ int main(void)
 				putchar(32);
 			}
 		}
+		a++;
 	}while (a < 10);
 	putchar('\n');
 	return (0);
