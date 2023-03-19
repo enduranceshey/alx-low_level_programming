@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int a, b;
+	int a = 0, b;
 
 	do
 	{
