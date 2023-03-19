@@ -9,19 +9,22 @@ int main(void)
 {
 	int a, b;
 
-	for (a = 0; a < 10; a++)
+	do
 	{
-		putchar(48 + a);
-		for (b = a + 1; b < a + 2; b++)
+		for (b = 0; b < a + 2; b++)
 		{
-			putchar(48 + b);
+			if (b != a)
+			{
+				putchar(48 + a);
+				putchar(48 + b);
+			}
 			if (b < 9)
 			{
 				putchar(44);
 				putchar(32);
 			}
 		}
-	}
+	}while (a < 10);
 	putchar('\n');
 	return (0);
 }
