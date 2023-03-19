@@ -13,7 +13,7 @@ int main(void)
 
 	do
 	{
-		for (b = 0; b < a + 2; b++)
+		for (b = a + 1; b < 10; b++)
 		{
 			if (b != a)
 			{
@@ -27,7 +27,8 @@ int main(void)
 			}
 		}
 		a++;
-	}while (a < 10);
+	}
+	while (a < 10);
 	putchar('\n');
 	return (0);
 }
