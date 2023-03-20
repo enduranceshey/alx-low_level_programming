@@ -22,7 +22,7 @@ int main(void)
 					putchar(32);
 					putchar(48 + c);
 					putchar(48 + d);
-					if (a < 8 || b < 8 || c < 9 || d < 9)
+					if (a + b + c + d < 35)
 					{
 						putchar(44);
 						putchar(32);
