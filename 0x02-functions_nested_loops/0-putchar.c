@@ -5,9 +5,9 @@
  *
  * Return: Already text (success)
  */
-char _putchar(char[])
+char _putchar(char txt[])
 {
-	char text = char[]
+	char text = txt[]
 	printf("%s\n", text);
 	return (text);
 }
