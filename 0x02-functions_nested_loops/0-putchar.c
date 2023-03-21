@@ -1,12 +1,13 @@
 #include<stdio.h>
 
 /**
- * main - Entry point
+ * _putchar - Entry point
  *
- * Return: Already 0 (success)
+ * Return: Already text (success)
  */
-int main(void)
+char _putchar(char[])
 {
-	printf("_putchar\n");
-	return (0);
+	char text = char[]
+	printf("%s\n", text);
+	return (text);
 }
