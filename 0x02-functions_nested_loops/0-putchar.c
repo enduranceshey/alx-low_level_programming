@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char text[] = "_putchar";
+	char txt[] = "_putchar";
 
 	int a = sizeof(txt)/sizeof(txt[0]);
 
