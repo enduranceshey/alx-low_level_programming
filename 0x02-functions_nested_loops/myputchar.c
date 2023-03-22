@@ -6,9 +6,9 @@
  *
  * Return: Already 0 (success)
  */
-int _putchar(char txt[])
+int _putchar(char txt)
 {
-	printf("%s", txt);
+	putchar(txt);
 	return (0);
 }
 
