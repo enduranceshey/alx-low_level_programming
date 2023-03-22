@@ -7,19 +7,27 @@
  */
 int main(void)
 {
-	int i, a;
+	int i = 0;
+	
+	long j = 1, k = 2;
 
-	for (i = 1; i < 25; i++)
+	while (i < 50)
 	{
-		if (i > 2)
+		if (i == 0)
 		{
-			printf("%d, ", a + i);
+			printf("%ld", j);
+		}
+		else if ( i == 1)
+		{
+			printf(", %ld", k);
 		}
 		else
 		{
-			printf("%d, ", i);
+			k += j;
+			j = k - j;
+			printf(", %ld", k);
 		}
-		a = i;
+		++i;
 	}
 	putchar('\n');
 	return (0);
