@@ -17,7 +17,7 @@ int main(void)
 		{
 			printf("%ld", j);
 		}
-		else if ( i == 1)
+		else if (i == 1)
 		{
 			printf(", %ld", k);
 		}
@@ -27,7 +27,7 @@ int main(void)
 			j = k - j;
 			printf(", %ld", k);
 		}
-		++i;
+		++i
 	}
 	putchar('\n');
 	return (0);
