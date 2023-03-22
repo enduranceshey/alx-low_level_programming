@@ -5,7 +5,7 @@
  *
  * Return: Already 0 (success)
  */
-int main(void)
+void print_alphabet(void)
 {
 	int alph;
 
