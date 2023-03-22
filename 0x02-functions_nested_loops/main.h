@@ -1,2 +1,1 @@
-idk what i'm doing
-
+int _putchar(char txt[]);

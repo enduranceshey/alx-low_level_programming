@@ -1,13 +1,26 @@
 #include<stdio.h>
 
+int _putchar(char txt[]);
+
 /**
- * _putchar - Entry point
+ *  main - Entry point
  *
- * Return: Already text (success)
+ *  Return: Already 0 (success)
  */
-char _putchar(char txt[])
+int main(void)
 {
-	char text = txt[]
-	printf("%s\n", text);
-	return (text);
+	_putchar("_putchar\n");
+	return (0);
 }
+/**
+ * _putchar - Printing function
+ * @txt: this is the text to be printed
+ *
+ * Return: Already 0 (success)
+ */
+int _putchar(char txt[])
+{
+	printf("%s", txt);
+	return (0);
+}
+
