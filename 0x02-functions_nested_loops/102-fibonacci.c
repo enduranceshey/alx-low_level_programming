@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	int i, a, fab;
+	int i, a;
 
-	for (i = 1; i < 100; i++)
+	for (i = 1; i < 25; i++)
 	{
 		if (i > 2)
 		{
@@ -22,5 +22,6 @@ int main(void)
 		a = i;
 	}
 	putchar('\n');
+	return (0);
 }
 
