@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include<main.h>
 /**
  * main Entry - point
  *
@@ -11,8 +11,8 @@ int main(void)
 
 	for (alph = 'a'; alph < 'z'; alph++)
 	{
-		putchar(alph);
+		_putchar(alph);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
