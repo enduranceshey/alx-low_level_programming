@@ -9,7 +9,7 @@ int main(void)
 {
 	char txt[] = "_putchar";
 
-	int a = sizeof(txt)/sizeof(txt[0]);
+	int a = sizeof(txt) / sizeof(txt[0]);
 
 	int i;
 
@@ -17,7 +17,6 @@ int main(void)
 	{
 		_putchar(txt[i]);
 	}
-	_putchar('\n');
 	return (0);
 }
 
