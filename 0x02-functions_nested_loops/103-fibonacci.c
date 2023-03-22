@@ -11,7 +11,6 @@ int main(void)
 
 	long j = 1, k = 2, l = k;
 
-	m = k + j;
 	while (k + j < 4000000)
 	{
 		k += j;
