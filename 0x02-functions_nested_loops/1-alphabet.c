@@ -11,8 +11,8 @@ void print_alphabet(void)
 
 	for (alph = 'a'; alph < 'z'; alph++)
 	{
-		_putchar(alph);
+		_putchar("%s", alph);
 	}
-	_putchar('\n');
+	_putchar("\n");
 	return (0);
 }
