@@ -7,7 +7,17 @@
  */
 int main(void)
 {
-	_putchar("_putchar\n");
+	char text[] = "_putchar";
+
+	int a = sizeof(txt)/sizeof(txt[0]);
+
+	int i;
+
+	for (i = 0; i <= a - 1; i++)
+	{
+		_putchar(txt[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
 
