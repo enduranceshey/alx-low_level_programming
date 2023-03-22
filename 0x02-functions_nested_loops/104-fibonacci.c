@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	int i = 0;
+	int i ;
 
 	long j = 1, k = 2;
 
-	while (i < 98)
+	for (i = 0; i  < 98; i++)
 	{
 		if (i == 0)
 		{
@@ -27,7 +27,6 @@ int main(void)
 			j = k - j;
 			printf(", %ld", k);
 		}
-		++i;
 	}
 	putchar('\n');
 	return (0);
