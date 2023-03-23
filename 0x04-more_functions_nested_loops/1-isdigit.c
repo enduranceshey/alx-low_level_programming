@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ * _isdigit - checks if c is a digit between 0 and 9
+ * @c: character to check
+ *
+ * Rerurn: 1 if succes else 0
+ */
+int _isdigit(int c)
+{
+	if (c >= 48 && c <= 58)
+	{
+		return (1);
+	}
+	return (0);
+}
+
