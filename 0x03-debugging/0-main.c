@@ -3,7 +3,7 @@
 /**
  * main - checks if an intteger is +ve or -ve
  *
- * Return: void
+ * Return: Already 0 (succes)
  */
 int main(void)
 {
